@@ -20,3 +20,10 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalData(){
+	
+	info = 'Serial No.' + '\n' +
+	'SERIAL: ' + device.serial + '\n'
+	navigator.notification.alert(info);
+	}
