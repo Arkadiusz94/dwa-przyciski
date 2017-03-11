@@ -4,14 +4,15 @@
 		id          = "myfirstapp"
         version     = "1.0.0" >
 
-    <name>First app</name>
-    <description>My first mobile app</description>
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
+    <name>First app z przyciskiem</name>
+    <description>My first mobile app z dodadkowym przyciskiem</description>
+    <author href="http://mypersonalwebsite.com" email="p.epe@gmail.com">
+		Jo
 	</author>
 	<platform name="android" />
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+	<plugin name="cordova-plugin-device-orientation" spec="~1.0.6" />
 
 </widget>
